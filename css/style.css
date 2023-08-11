@@ -1,0 +1,118 @@
+:root{
+
+    --main-color:#00FFFF;
+}
+
+body{
+    background-image: url(../images/main\ bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: 'Merienda', cursive;
+    text-shadow:0px 0px 30px #fff,0px 0px 30px  var(--main-color);
+    animation: glow 1s infinite alternate 
+  }
+  h4 , h5{
+    text-shadow:0px 0px 10px #fff,0px 0px 10px  var(--main-color);
+
+  }
+  @keyframes glow{
+    from{text-shadow:0px 0px 10px #fff,0px 0px 10px var(--main-color);
+    transform: scale(1);}
+    to{text-shadow:0px 0px 30px #fff,0px 0px 30px  var(--main-color);
+    transform: scale(0.99);}
+  }
+ 
+  
+.btn{
+    color: white;
+    box-shadow:0px 0px 10px #fff,0px 0px 20px  var(--main-color);
+    font-weight: 700;
+    border: 1px solid var(--main-color);
+    border-radius: 20px;
+}
+.active{
+    color: black !important;
+    background-color: var(--main-color) !important;
+    border: 0px;
+    box-shadow:0px 0px 10px #fff,0px 0px 10px  var(--main-color);
+}
+.btn:focus{
+    color: black !important;
+    background-color: var(--main-color);
+    border: 0px;
+    box-shadow:0px 0px 10px #fff,0px 0px 10px  var(--main-color);
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.product-animation{
+animation: opacity 2s ;
+}
+
+@keyframes opacity{
+    0%{
+        transform: rotate(0deg);
+        opacity: 0.1;
+    }
+    30%{
+        transform: rotate(-10deg);
+        opacity: 0.4;
+    }
+    60%{
+        transform: rotate(10deg);
+        opacity: 0.7;
+    }
+    70%{
+        transform: rotate(-5deg);
+        opacity: 0.8;
+    }
+    80%{
+        transform: rotate(5deg);
+        opacity: 0.9;
+    }
+    85%{
+        transform: rotate(-3deg);
+        opacity: 0.9;
+    }
+    90%{
+        transform: rotate(3deg);
+        opacity: 0.9;
+    }
+    95%{
+        transform: rotate(-2deg);
+        opacity: 0.9;
+    }
+    
+    97%{
+        transform: rotate(1deg);
+        opacity: 0.9;
+    }
+    
+    100%{
+        transform: rotate(0deg);
+
+        opacity: 1;
+    }
+}
+
+.rot-img{
+    overflow: hidden;
+    transition: all 1s ;
+    height: 200px;
+    box-shadow:0px 0px 20px #fff,0px 0px 20px var(--main-color);
+}
+.product-animation:hover .rot-img,.product-animation:hover .rot-text2{
+    transform: scale(1.05) rotate(5deg);
+}
+.rot-text1 , .rot-text2{
+    transition: all 1s ;
+
+}
+.product-animation:hover .rot-text1{
+    transform: scale(1.05) rotate(-5deg);
+}

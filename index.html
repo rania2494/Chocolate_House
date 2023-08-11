@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Progress Steps" />
+    <meta
+      name="keywords"
+      content="Progress Steps javascript html css html5 css3 bootstrap"
+    />
+
+    <title>Chocolate House</title>
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="h-100 w-100 container text-capitalize text-center pt-3">
+        <h1 class="m-auto py-2 text-center display-3 text-uppercase">Chocolate House</h1>
+      <div class="my-3">
+        <button class="text-capitalize btn  m-1 active" id="all">all</button>
+        <button class="text-capitalize btn m-1" id="moltencake">molten cake</button>
+        <button class="text-capitalize btn m-1" id="cheesecake">cheesecake</button>
+        <button class="text-capitalize btn m-1" id="brownies">brownies</button>
+        <button class="text-capitalize btn  m-1" id="milkshake">milkshake</button>
+        <button class="text-capitalize btn m-1" id="mojito">mojito</button>
+
+    </div>
+<div class="row h-75">
+        
+   
+    <div class="col-md-4 p-3 overflow-hidden products" filteration="milkshake">
+        <div class=" p-3 product-animation rot  overflow-hidden">
+            <img src="images/Milkshake/Brownies Milkshake.jpg" alt="Brownies Milkshake" class="w-75 border border-0 rounded-circle rot-img ">
+            <div><h4 class='my-1'>Brownies Milkshake</h4></div>
+            <div><h5 class='my-1'>60 LE</h5></div>
+        </div>
+    </div>
+    <div class="col-md-4 p-3 overflow-hidden products" filteration="milkshake">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Milkshake/Blueberry Milkshake.jpg" alt="Blueberry Milkshake" class="w-75 border border-0 rounded-circle rot-img ">
+            <div><h4 class='my-1'>Blueberry Milkshake</h4></div>
+            <div><h5 class='my-1'>58 LE</h5></div>
+        </div>
+    </div>
+
+    
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="cheesecake">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Cheesecake/Cherry Cheesecake.jpg" alt="Cherry Cheesecake" class="w-75 border border-0 rounded-circle rot-img ">
+            <div><h4 class='my-1'>Cherry Cheesecake</h4></div>
+            <div><h5 class='my-1'>70 LE</h5></div>
+        </div>
+    </div>
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="mojito">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Mojito/Cherry Mojito.jpg" alt="Cherry Mojito" class="w-75 border border-0  rounded-circle rot-img ">
+            <div><h4 class='my-1'>Cherry Mojito</h4></div>
+            <div><h5 class='my-1'>68 LE</h5></div>
+        </div>
+    </div>
+    
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="brownies">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Brownies/White Chocolate Brownies.jpg" alt="White Chocolate Brownies" class="w-75 border border-0   rounded-circle rot-img ">
+            <div><h4 class='my-1'>White Chocolate Brownies</h4></div>
+            <div><h5 class='my-1'>48 LE</h5></div>
+        </div>
+    </div>
+    
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="milkshake">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Milkshake/Chocolate Milkshake.jpg" alt="Chocolate Milkshake" class="w-75 border border-0 rounded-circle rot-img ">
+            <div><h4 class='my-1'>Chocolate Milkshake</h4></div>
+            <div><h5 class='my-1'>54 LE</h5></div>
+        </div>
+    </div>
+    
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="cheesecake">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Cheesecake/Caramel Cheesecake.jpg" alt="Caramel Cheesecake" class="w-75 border border-0 rounded-circle rot-img ">
+            <div><h4 class='my-1'>Caramel Cheesecake</h4></div>
+            <div><h5 class='my-1'>65 LE</h5></div>
+        </div>
+    </div>
+    
+    <div class="col-md-4  p-3 overflow-hidden products"  filteration="mojito">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Mojito/Blue Curacao Mojito.jpg" alt="Blue Curacao Mojito" class="w-75 border border-0  rounded-circle rot-img ">
+            <div><h4 class='my-1'>Blue Curacao Mojito</h4></div>
+            <div><h5 class='my-1'>58 LE</h5></div>
+        </div>
+    </div>
+    
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="moltencake">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Molten Cake/White Chocolate Molten Cake.jpg" alt="White Chocolate Molten Cake" class="w-75 border border-0   rounded-circle rot-img ">
+            <div><h4 class='my-1'>White Chocolate Molten Cake</h4></div>
+            <div><h5 class='my-1'>45 LE</h5></div>
+        </div>
+    </div>
+
+    
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="cheesecake">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Cheesecake/Chocolate Cheesecake.jpg" alt="Chocolate Cheesecake" class="w-75 border border-0   rounded-circle rot-img ">
+            <div><h4 class='my-1'>Chocolate Cheesecake</h4></div>
+            <div><h5 class='my-1'>60 LE</h5></div>
+        </div>
+    </div>
+    
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="mojito">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Mojito/Green Apple Mojito.jpg" alt="Green Apple Mojito" class="w-75 border border-0 rounded-circle rot-img ">
+            <div><h4 class='my-1'>Green Apple Mojito</h4></div>
+            <div><h5 class='my-1'>65 LE</h5></div>
+        </div>
+    </div>
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="brownies">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Brownies/Nutella Brownies.jpg" alt="Nutella Brownies" class="w-75 border border-0 rounded-circle rot-img ">
+            <div><h4 class='my-1'>Nutella Brownies</h4></div>
+            <div><h5 class='my-1'>55 LE</h5></div>
+        </div>
+    </div>
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="cheesecake">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Cheesecake/Blueberry Cheesecake.jpg" alt="Blueberry Cheesecake" class="w-75 border border-0 rounded-circle rot-img ">
+            <div><h4 class='my-1'>Blueberry Cheesecake</h4></div>
+            <div><h5 class='my-1'>70 LE</h5></div>
+        </div>
+    </div>
+    
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="milkshake">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Milkshake/Oreo Milkshake.jpg" alt="Oreo Milkshake" class="w-75 border border-0 rounded-circle rot-img ">
+            <div><h4 class='my-1'>Oreo Milkshake</h4></div>
+            <div><h5 class='my-1'>55 LE</h5></div>
+        </div>
+    </div>
+    
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="cheesecake">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Cheesecake/Lotus Cheesecake.jpg" alt="Lotus Cheesecake" class="w-75 border border-0 rounded-circle rot-img ">
+            <div><h4 class='my-1'>Lotus Cheesecake</h4></div>
+            <div><h5 class='my-1'>71 LE</h5></div>
+        </div>
+    </div>
+    
+    
+    <div class="col-md-4  p-3 overflow-hidden products">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Milkshake/Caramel Milkshake.jpg" alt="Caramel Milkshake" class="w-75 border border-0  rounded-circle rot-img ">
+            <div><h4 class='my-1'>Caramel Milkshake</h4></div>
+            <div><h5 class='my-1'>62 LE</h5></div>
+        </div>
+    </div>
+    
+    
+    <div class="col-md-4  p-3 overflow-hidden products" filteration="mojito">
+        <div class=" p-3  product-animation rot overflow-hidden">
+            <img src="images/Mojito/Strawberry Mojito.jpg" alt="Strawberry Mojito" class="w-75 border border-0  rounded-circle rot-img ">
+            <div><h4 class='my-1'>Strawberry Mojito</h4></div>
+            <div><h5 class='my-1'>55 LE</h5></div>
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+    </main>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
